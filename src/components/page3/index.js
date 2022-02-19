@@ -18,6 +18,7 @@ const useStyles = makeStyles({
     display: 'flex',
     justifyContent: 'space-evenly',
     gap: '3rem',
+    flexWrap: 'wrap',
   },
   languageIcon: {
     height: '4rem',
@@ -62,7 +63,7 @@ const Page3 = () => {
   ];
   return (
     <div className={classes.rootPage} id='page'>
-      <Typography variant='whiteH1'>languages/frameworks.</Typography>
+      <Typography variant='whiteH1'>languages / frameworks.</Typography>
       <br />
       <div className={classes.languages}>
         {languages.map((lang, index) => (
