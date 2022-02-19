@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles';
 import { ArrowDownward, ArrowUpward } from '@mui/icons-material';
 import React from 'react';
-import { Fab } from '@mui/material';
+import { IconButton } from '@mui/material';
 const useStyles = makeStyles({
   root: {
     position: 'fixed',
@@ -41,30 +41,30 @@ const NavButtons = () => {
   };
   return (
     <div className={classes.root}>
-      <Fab
-        size='small'
+      <IconButton
+        aria-label=''
         onClick={navUp}
         sx={{
           color: 'white',
-          marginBottom: '1rem',
           background: '#303030',
-          '&:hover': { color: 'red' },
+          marginBottom: '1rem',
+          '&:hover': { background: 'white', color: 'red' },
         }}
       >
         <ArrowUpward />
-      </Fab>
+      </IconButton>
       <br />
-      <Fab
-        size='small'
+      <IconButton
+        aria-label=''
         onClick={navDown}
         sx={{
           color: 'white',
           background: '#303030',
-          '&:hover': { color: 'red' },
+          '&:hover': { background: 'white', color: 'red' },
         }}
       >
         <ArrowDownward />
-      </Fab>
+      </IconButton>
     </div>
   );
 };
