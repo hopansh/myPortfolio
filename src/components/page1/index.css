@@ -29,7 +29,7 @@
 .speciality {
   font-size: 5rem;
   color: red;
-  position: relative;
+  line-height: 1;
 }
 .cvButton {
   width: 10rem;
@@ -44,10 +44,11 @@
 .changeText {
   overflow: hidden;
   position: relative;
-  height: 6rem;
+  height: 5.5rem;
   font-size: 5rem;
   color: red;
   position: relative;
+  line-height: 1;
 }
 ul {
   padding: 0;
@@ -59,13 +60,13 @@ ul {
 
 @keyframes flip2 {
   0% {
-    margin-top: -12rem;
+    margin-top: -10rem;
   }
   5% {
-    margin-top: -6.8rem;
+    margin-top: -5rem;
   }
   50% {
-    margin-top: -6.8rem;
+    margin-top: -5rem;
   }
   55% {
     margin-top: 0px;
@@ -74,6 +75,6 @@ ul {
     margin-top: 0px;
   }
   100% {
-    margin-top: -18rem;
+    margin-top: -15rem;
   }
 }
