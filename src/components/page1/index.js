@@ -42,7 +42,13 @@ const Page1 = () => {
         Hi! I am <span id='name'>Hopansh Gahlot.</span>
       </div>
       <div className='speciality'>Web Developer</div>
-      <a href='/hopanshGahlot.pdf' target='_blank' className='downloadButton'>
+      <a
+        href='https://hopanshga.000webhostapp.com/hopanshGahlot.pdf'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='downloadButton'
+        download
+      >
         <button className='cvButton'>Download CV</button>
       </a>
     </div>

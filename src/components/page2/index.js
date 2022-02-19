@@ -31,7 +31,7 @@ const Page2 = () => {
         libraries and frameworks, and Android Platform Mobile Apps with Flutter.
         Currently am working as an intern at HighRadius Corporation.
       </p>
-      <Timeline position='alternate' sx={{ flexGrow: 0 }}>
+      <Timeline position='alternate' sx={{ flexGrow: 0, padding: 0 }}>
         <TimelineItem>
           <TimelineOppositeContent
             align='right'
