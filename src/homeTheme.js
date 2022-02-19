@@ -93,6 +93,16 @@ export const homeTheme = createTheme({
             fontWeight: 700,
           },
         },
+        {
+          props: { variant: 'whiteH3' },
+          style: {
+            color: '#fff',
+            fontFamily: 'Raleway',
+            fontSize: '3rem',
+            fontWeight: 700,
+            '&:hover': { color: '#ff0000' },
+          },
+        },
       ],
     },
     MuiDivider: {
