@@ -1,6 +1,4 @@
-# Ed Address
-
-### This project is a react web app. This platform help students to find nearby tuitions, also teachers can publish there tuition gig here.
+# Hopansh Gahlot Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
