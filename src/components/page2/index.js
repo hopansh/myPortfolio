@@ -24,13 +24,13 @@ const Page2 = () => {
   return (
     <div className={classes.rootPage} id='page'>
       <Typography variant='h1'>about.</Typography>
-      <div>
-        Et incididunt est in excepteur aliqua in ex tempor fugiat commodo nulla.
-        In ex consequat velit mollit ex est esse esse officia sint enim. Eu elit
-        commodo nulla qui veniam fugiat deserunt est excepteur consequat labore
-        ea sit non. Anim laborum eu Lorem pariatur et. Consequat ipsum sint
-        reprehenderit commodo laboris ullamco irure sunt culpa.
-      </div>
+      <p style={{ fontFamily: 'raleway', lineHeight: 2 }}>
+        Hi all, I am a Full Stack Web Developer and Mobile App Developer having
+        an experience of building Web application with JavaScript / Reactjs /
+        Nodejs / MongoDb / Material UI / Bootstrap along with some other cool
+        libraries and frameworks, and Android Platform Mobile Apps with Flutter.
+        Currently am working as an intern at HighRadius Corporation.
+      </p>
       <Timeline position='alternate'>
         <TimelineItem>
           <TimelineOppositeContent
@@ -95,10 +95,10 @@ const Page2 = () => {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant='h6' component='span'>
-              Associate Software Engineer
+              Intern (Web Developer)
             </Typography>
             <Typography sx={{ color: 'red' }}>
-              HighRadius Corporation{' '}
+              HighRadius Corporation
             </Typography>
           </TimelineContent>
         </TimelineItem>
