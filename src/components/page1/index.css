@@ -29,6 +29,7 @@
 .speciality {
   font-size: 5rem;
   color: red;
+  position: relative;
 }
 .cvButton {
   width: 10rem;
@@ -39,4 +40,43 @@
   border-radius: 2rem;
   color: white;
   text-transform: uppercase;
+}
+.changeText {
+  overflow: hidden;
+  position: relative;
+  height: 7rem;
+  font-size: 5rem;
+  color: red;
+  position: relative;
+}
+ul {
+  padding: 0;
+}
+li {
+  display: block;
+}
+
+.flip2 {
+  animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+@keyframes flip2 {
+  0% {
+    margin-top: -14rem;
+  }
+  5% {
+    margin-top: -7rem;
+  }
+  50% {
+    margin-top: -7rem;
+  }
+  55% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -21rem;
+  }
 }

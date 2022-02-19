@@ -28,7 +28,7 @@ const Page5 = () => {
         contact.
       </Typography>
       <br />
-      <a href='href="mailto:hopansh.gahlot@gmail.com?subject = Feedback&body = Message"'>
+      <a href='mailto:hopansh.gahlot@gmail.com?subject = Feedback&body = Message'>
         <Typography variant='whiteH3'>hopansh.gahlot@gmail.com</Typography>
       </a>
       <br />

@@ -1,3 +1,4 @@
+import { Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import React, { useLayoutEffect, useState } from 'react';
 import bg from '../../assets/images/background2.jpg';
@@ -39,9 +40,18 @@ const Page1 = () => {
         <img src={bg} alt='bgImage' className={classes.homeBg} />
       ) : null}
       <div className='name'>
-        Hi! I am <span id='name'>Hopansh Gahlot.</span>
+        Hello, I&apos;m <span id='name'>Hopansh Gahlot.</span>
       </div>
-      <div className='speciality'>Web Developer</div>
+      <div>
+        <Typography variant='whiteH3'>I am a</Typography>
+        <div className='changeText'>
+          <ul className='flip2'>
+            <li>Web</li>
+            <li>App</li>
+          </ul>
+        </div>
+        <div className='speciality'>Developer</div>
+      </div>
       <a
         href='https://hopanshga.000webhostapp.com/hopanshGahlot.pdf'
         target='_blank'
