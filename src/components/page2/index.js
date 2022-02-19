@@ -1,5 +1,12 @@
 import { Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
+import Timeline from '@mui/lab/Timeline';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import TimelineConnector from '@mui/lab/TimelineConnector';
+import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
+import TimelineDot from '@mui/lab/TimelineDot';
 import React from 'react';
 const useStyles = makeStyles({
   rootPage: {
@@ -24,6 +31,78 @@ const Page2 = () => {
         ea sit non. Anim laborum eu Lorem pariatur et. Consequat ipsum sint
         reprehenderit commodo laboris ullamco irure sunt culpa.
       </div>
+      <Timeline position='alternate'>
+        <TimelineItem>
+          <TimelineOppositeContent
+            align='right'
+            variant='body1'
+            sx={{ m: 'auto 0' }}
+          >
+            2013-15
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography variant='h6' component='span'>
+              High School
+            </Typography>
+            <Typography sx={{ color: 'red' }}>9.2 CGPA</Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent sx={{ m: 'auto 0' }} variant='body1'>
+            2015-17
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography variant='h6' component='span'>
+              Inter College
+            </Typography>
+            <Typography sx={{ color: 'red' }}>7.46 CGPA</Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent sx={{ m: 'auto 0' }} variant='body1'>
+            2018-22
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography variant='h6' component='span'>
+              B.Tech (Information Technology)
+            </Typography>
+            <Typography sx={{ color: 'red' }}>9.59 CGPA</Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent sx={{ m: 'auto 0' }} variant='body1'>
+            2022-Present
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography variant='h6' component='span'>
+              Associate Software Engineer
+            </Typography>
+            <Typography sx={{ color: 'red' }}>
+              HighRadius Corporation{' '}
+            </Typography>
+          </TimelineContent>
+        </TimelineItem>
+      </Timeline>
     </div>
   );
 };

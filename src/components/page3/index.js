@@ -12,17 +12,18 @@ const useStyles = makeStyles({
     boxSizing: 'border-box',
     display: 'flex',
     flexFlow: 'column',
-    justifyContent: 'space-evenly',
+    justifyContent: 'center',
   },
   languages: {
+    marginTop: '4rem',
     display: 'flex',
     justifyContent: 'space-evenly',
-    gap: '3rem',
+    gap: '4rem',
     flexWrap: 'wrap',
   },
   languageIcon: {
-    height: '4rem',
-    width: '4rem',
+    height: '5rem',
+    width: '5rem',
   },
 });
 const Page3 = () => {
