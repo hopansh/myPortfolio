@@ -46,7 +46,7 @@ const NavButtons = () => {
         onClick={navUp}
         sx={{
           color: 'white',
-          background: '#303030',
+          background: 'red',
           marginBottom: '1rem',
           '&:hover': { color: 'red' },
         }}
@@ -60,7 +60,7 @@ const NavButtons = () => {
         onClick={navDown}
         sx={{
           color: 'white',
-          background: '#303030',
+          background: 'red',
           '&:hover': { color: 'red' },
         }}
       >

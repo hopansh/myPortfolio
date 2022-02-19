@@ -1,7 +1,6 @@
 import { Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import React from 'react';
-import './index.css';
 const useStyles = makeStyles({
   rootPage: {
     height: '100vh',
@@ -69,9 +68,13 @@ const Page3 = () => {
       <div className={classes.languages}>
         {languages.map((lang, index) => (
           <div key={index}>
-            <img src={lang?.src} className={classes.languageIcon} />
+            <img
+              src={lang?.src}
+              className={classes.languageIcon}
+              alt={lang?.name}
+            />
             <h5 style={{ textAlign: 'center', fontFamily: 'Raleway' }}>
-              {lang.name}
+              {lang?.name}
             </h5>
           </div>
         ))}

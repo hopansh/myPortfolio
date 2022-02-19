@@ -31,8 +31,6 @@ export const homeTheme = createTheme({
     },
     h3: {
       color: '#FF0000',
-      WebkitBackgroundClip: 'text',
-      WebkitTextFillColor: 'transparent',
     },
   },
 
