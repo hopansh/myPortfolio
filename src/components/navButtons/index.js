@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles';
 import { ArrowDownward, ArrowUpward } from '@mui/icons-material';
 import React from 'react';
-import { IconButton } from '@mui/material';
+import { Fab } from '@mui/material';
 const useStyles = makeStyles({
   root: {
     position: 'fixed',
@@ -17,7 +17,7 @@ const changeScroll = (type) => {
   const currentidx = Math.round(
     (currentLocation + windowHeight) / windowHeight
   );
-  const ele = document.querySelectorAll("*[class^='makeStyles-rootPage']");
+  const ele = document.querySelectorAll("*[id^='page']");
   if (type === 'down')
     ele[Math.min(currentidx, ele?.length - 1)].scrollIntoView({
       behavior: 'smooth',
@@ -41,30 +41,31 @@ const NavButtons = () => {
   };
   return (
     <div className={classes.root}>
-      <IconButton
-        aria-label=''
+      <Fab
+        size='small'
         onClick={navUp}
         sx={{
           color: 'white',
           background: '#303030',
           marginBottom: '1rem',
-          '&:hover': { background: 'white', color: 'red' },
+          '&:hover': { color: 'red' },
         }}
       >
         <ArrowUpward />
-      </IconButton>
+      </Fab>
       <br />
-      <IconButton
+      <Fab
+        size='small'
         aria-label=''
         onClick={navDown}
         sx={{
           color: 'white',
           background: '#303030',
-          '&:hover': { background: 'white', color: 'red' },
+          '&:hover': { color: 'red' },
         }}
       >
         <ArrowDownward />
-      </IconButton>
+      </Fab>
     </div>
   );
 };

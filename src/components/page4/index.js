@@ -15,7 +15,7 @@ const useStyles = makeStyles({
 const Page4 = () => {
   const classes = useStyles();
   return (
-    <div className={classes.rootPage}>
+    <div className={classes.rootPage} id='page'>
       <Typography variant='h1'>projects.</Typography>
       <div>
         Et incididunt est in excepteur aliqua in ex tempor fugiat commodo nulla.

@@ -34,7 +34,7 @@ const Page1 = () => {
   }, []);
 
   return (
-    <div className={classes.rootPage}>
+    <div className={classes.rootPage} id='page'>
       {size[0] >= 1024 ? (
         <img src={bg} alt='bgImage' className={classes.homeBg} />
       ) : null}
