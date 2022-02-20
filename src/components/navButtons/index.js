@@ -19,13 +19,15 @@ const changeScroll = (type) => {
   );
   const ele = document.querySelectorAll("*[id^='page']");
   if (type === 'down')
-    ele[Math.min(currentidx, ele?.length - 1)].scrollIntoView({
+    ele[currentidx % ele?.length].scrollIntoView({
       behavior: 'smooth',
       block: 'end',
       inline: 'nearest',
     });
   else
-    ele[Math.max(currentidx - 2, 0)].scrollIntoView({
+    ele[
+      currentidx - 2 === -1 ? ele?.length - 1 : currentidx - 2
+    ].scrollIntoView({
       behavior: 'smooth',
       block: 'end',
       inline: 'nearest',

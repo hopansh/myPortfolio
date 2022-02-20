@@ -53,17 +53,27 @@ const Page3 = () => {
       name: 'Flutter',
     },
     {
-      src: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png',
+      src: 'https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/000000/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png',
       name: 'MongoDb',
     },
     {
-      src: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png',
+      src: 'https://img.icons8.com/color/96/000000/mysql-logo.png',
       name: 'MySQL',
+    },
+    {
+      src: 'https://img.icons8.com/color/96/000000/bootstrap.png',
+      name: 'Bootstrap',
+    },
+    {
+      src: 'https://img.icons8.com/color/96/000000/material-ui.png',
+      name: 'Material UI',
     },
   ];
   return (
     <div className={classes.rootPage} id='page'>
-      <Typography variant='whiteH1'>languages / frameworks.</Typography>
+      <Typography variant='whiteH1'>
+        languages / frameworks / libraries.
+      </Typography>
       <br />
       <div className={classes.languages}>
         {languages.map((lang, index) => (
