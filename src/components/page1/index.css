@@ -31,15 +31,29 @@
   color: red;
   line-height: 1;
 }
-.cvButton {
-  width: 10rem;
-  height: 3rem;
-  font-size: 1rem;
-  background-color: #0c0c0c;
-  border: 3px solid white;
+.cvButton:link,
+.cvButton:visited {
+  width: fit-content;
+  padding: 1rem 1rem;
+  display: inline-block;
+  font-weight: 600;
+  color: black;
+  line-height: 1;
+  background: #fff;
   border-radius: 2rem;
-  color: white;
+  text-align: center;
   text-transform: uppercase;
+  animation: all 0.5s;
+}
+
+.cvButton:hover {
+  color: red;
+  transform: translateY(-0.2rem);
+  box-shadow: 0.1rem 0.5rem 1rem rgba(255, 255, 255, 0.1);
+}
+.cvButton:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0.05rem 0.25px 0.5rem rgba(255, 255, 255, 0.2);
 }
 .changeText {
   overflow: hidden;

@@ -28,11 +28,14 @@ const Page5 = () => {
         contact.
       </Typography>
       <br />
-      <a href='mailto:hopansh.gahlot@gmail.com?subject = Feedback&body = Message'>
+      <a
+        href='mailto:hopansh.gahlot@gmail.com?subject = Feedback&body = Message'
+        style={{ width: 'fit-content' }}
+      >
         <Typography variant='whiteH3'>hopansh.gahlot@gmail.com</Typography>
       </a>
       <br />
-      <a href='tel:7017585874'>
+      <a href='tel:7017585874' style={{ width: 'fit-content' }}>
         <Typography variant='whiteH3'>+91-7017585874</Typography>
       </a>
       <br />

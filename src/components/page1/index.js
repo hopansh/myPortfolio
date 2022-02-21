@@ -56,10 +56,10 @@ const Page1 = () => {
         href='https://hopanshga.000webhostapp.com/hopanshGahlot.pdf'
         target='_blank'
         rel='noopener noreferrer'
-        className='downloadButton'
+        className='cvButton'
         download
       >
-        <button className='cvButton'>Download CV</button>
+        Download CV
       </a>
     </div>
   );
