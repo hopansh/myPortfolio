@@ -81,7 +81,7 @@ const Page2 = () => {
             <Typography variant='h6' component='span'>
               B.Tech (Information Technology)
             </Typography>
-            <Typography sx={{ color: 'red' }}>9.59 CGPA</Typography>
+            <Typography sx={{ color: 'red' }}>9.62 CGPA</Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
