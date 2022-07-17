@@ -95,7 +95,7 @@ const Page2 = () => {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant='h6' component='span'>
-              Intern (Web Developer)
+              Associate Software Engineer-1
             </Typography>
             <Typography sx={{ color: 'red' }}>
               HighRadius Corporation
