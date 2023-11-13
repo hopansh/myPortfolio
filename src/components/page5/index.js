@@ -35,8 +35,8 @@ const Page5 = () => {
         <Typography variant='whiteH3'>hopansh.gahlot@gmail.com</Typography>
       </a>
       <br />
-      <a href='tel:7017585874' style={{ width: 'fit-content' }}>
-        <Typography variant='whiteH3'>+91-7017585874</Typography>
+      <a href='tel:8791864585' style={{ width: 'fit-content' }}>
+        <Typography variant='whiteH3'>+91-8791864585</Typography>
       </a>
       <br />
       <div style={{ marginTop: '1rem' }}>
