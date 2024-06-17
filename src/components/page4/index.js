@@ -20,6 +20,16 @@ const Page4 = () => {
       <Typography variant="h1">projects.</Typography>
       <Grid container justifyContent={"space-between"}>
         <CustomCard
+          title="Acadmik"
+          desc="AI powered platform to generate Quizzes from any text, url or document."
+          viewLink="https://www.acadmik.me/"
+        />
+        <CustomCard
+          title="Giggle Matrix"
+          desc="AI generated art collection website, with Search by Image feature, using vector search."
+          viewLink="https://gigglematrix.tech/"
+        />
+        <CustomCard
           title="Chat2Chart"
           desc="WebApp to plot chart on data using text prompt powered by openAI"
           viewLink="https://chat2chart.netlify.app/"
@@ -28,16 +38,6 @@ const Page4 = () => {
           title="Ed. Address"
           desc="React Website to help find nearby tutions, Developed using MERN Stack."
           viewLink="https://edaddress.netlify.app/"
-        />
-        <CustomCard
-          title="COVID Tracker"
-          desc="Android app to track covid cases around the world. Developed using Flutter."
-          viewLink="https://play.google.com/store/apps/details?id=com.pluto.TrackCount"
-        />
-        <CustomCard
-          title="Ice Breaker Game"
-          desc="Android platform game, inspired from retro brick breaker game. Developed using C#"
-          viewLink="https://play.google.com/store/apps/details?id=com.HopanshGahlot.IceBreaker"
         />
       </Grid>
     </div>

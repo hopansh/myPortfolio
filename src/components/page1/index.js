@@ -3,7 +3,7 @@ import { makeStyles } from "@mui/styles";
 import React, { useLayoutEffect, useState } from "react";
 import bg from "../../assets/images/background2.jpg";
 import "./index.css";
-import resume from "../../assets/hopanshGahlot.pdf";
+import resume from "../../assets/hopansh.gahlot.pdf";
 const useStyles = makeStyles({
   rootPage: {
     height: "100vh",

@@ -25,20 +25,17 @@ const Page2 = () => {
     <div className={classes.rootPage} id="page">
       <Typography variant="h1">about.</Typography>
       <p style={{ fontFamily: "raleway", lineHeight: 2 }}>
-        Highly motivated and versatile Full Stack Developer with a strong focus
-        on React.js and experience in backend development with Node.js and
-        Flask. Bringing a solid track record of delivering robust and
-        userfriendly web applications. Currently am working as an Associate
-        Software Engineer at HighRadius Corporation.
+        Full Stack Developer with a strong expertise in React and substantial
+        experience in back-end development using Node and Flask. Experienced in
+        developing projects facilitating data visualization and enhancing
+        financial analysis capabilities, crafting responsive interfaces, and
+        dedicated to leveraging technology to solve complex challenges and
+        deliver user-centric solutions.
       </p>
       <Timeline position="alternate" sx={{ flexGrow: 0, padding: 0 }}>
         <TimelineItem>
-          <TimelineOppositeContent
-            align="right"
-            variant="body1"
-            sx={{ m: "auto 0" }}
-          >
-            2013-15
+          <TimelineOppositeContent sx={{ m: "auto 0" }} variant="body1">
+            2024-Present
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -47,14 +44,16 @@ const Page2 = () => {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6" component="span">
-              High School
+              Associate Software Engineer - 2
             </Typography>
-            <Typography sx={{ color: "red" }}>9.2 CGPA</Typography>
+            <Typography sx={{ color: "red" }}>
+              HighRadius Corporation
+            </Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent sx={{ m: "auto 0" }} variant="body1">
-            2015-17
+            2022-2024
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -63,9 +62,11 @@ const Page2 = () => {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6" component="span">
-              Inter College
+              Associate Software Engineer - 1
             </Typography>
-            <Typography sx={{ color: "red" }}>7.46 CGPA</Typography>
+            <Typography sx={{ color: "red" }}>
+              HighRadius Corporation
+            </Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -86,7 +87,7 @@ const Page2 = () => {
         </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent sx={{ m: "auto 0" }} variant="body1">
-            2022-Present
+            2015-17
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -95,11 +96,29 @@ const Page2 = () => {
           </TimelineSeparator>
           <TimelineContent>
             <Typography variant="h6" component="span">
-              Associate Software Engineer
+              Intermediate
             </Typography>
-            <Typography sx={{ color: "red" }}>
-              HighRadius Corporation
+            <Typography sx={{ color: "red" }}>7.46 CGPA</Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent
+            align="right"
+            variant="body1"
+            sx={{ m: "auto 0" }}
+          >
+            2013-15
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Typography variant="h6" component="span">
+              High School
             </Typography>
+            <Typography sx={{ color: "red" }}>9.2 CGPA</Typography>
           </TimelineContent>
         </TimelineItem>
       </Timeline>
